@@ -11,7 +11,8 @@ module GoCardless
                   :plan_id,
                   :status,
                   :gocardless_fees,
-                  :partner_fees
+                  :partner_fees,
+                  :can_be_retried
 
     # @attribute source_id
     # @return [String] the ID of the bill's source (eg subscription, pre_authorization)
